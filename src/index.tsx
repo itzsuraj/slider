@@ -1,19 +1,21 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import ReactDOM from 'react-dom';
+import Slider from './components/Slide'; // Update the path according to your file structure
 
-const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement
-);
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+const imageUrls = [
+  '../src/images/slide1.jpeg',
+  '../src/images/slide2.jpeg',
+  '../src/images/slide3.jpeg',
+  // Add more image URLs as needed
+];
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+const App = () => {
+  return (
+    <div>
+      <h1>Image Slider</h1>
+      <Slider items={imageUrls} />
+    </div>
+  );
+};
+
+ReactDOM.render(<App />, document.getElementById('root'));
