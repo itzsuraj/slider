@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Slider from './components/Slide'; // Update the path according to your file structure
+import Slider from './components/Slide';
+import ScrollToTop from './components/ScrollToTop';
 
 const imageUrls = [
   '../src/images/slide1.jpeg',
@@ -14,6 +15,7 @@ const App = () => {
     <div>
       <h1>Image Slider</h1>
       <Slider items={imageUrls} />
+      <ScrollToTop />
     </div>
   );
 };

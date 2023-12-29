@@ -1,0 +1,100 @@
+
+const scrollToTop = () => {
+    window.scrollTo({ top: 0, left: 0, behavior: 'smooth' })
+
+    return (
+        <div>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+            <h2>Apple</h2>
+
+            <button onClick={scrollToTop}>Scroll to top</button>
+        </div>
+    );
+};
+
+export default scrollToTop;
