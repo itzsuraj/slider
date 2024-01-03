@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-
 import Slider from '../src/components/Slide/index';
 import  '../src/components/Slide/style.css';
 import slide1 from '../src/images/slide1.jpeg';
